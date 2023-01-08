@@ -16,7 +16,7 @@ def get_env_variable(var_name):
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
 
 # Subdirectory for app bundles.
-APP_DIR = 'django-base'
+APP_DIR = "django-async"
 sys.path.append(os.path.join(BASE_DIR, APP_DIR))
 
 APPS_ROOT = BASE_DIR / APP_DIR
